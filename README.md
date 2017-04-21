@@ -20,3 +20,13 @@ npm install
 
 node app.js
 ```
+
+## Issues
+
+1. `node app.js` ---> `Error: 'options' may not be used as a schema pathname` at `app/models/questionnaire.js` line 71 
+
+`options` is a reserved schema names that can't be used.
+
+So I change one name for `options`
+
+2. 
