@@ -2,7 +2,7 @@
 
 Ok, this is an experiment project for my master thesis.
 
-At the basic of the origin code for mongodb version of FHIR resource.
+At the basic of the origin code for mongodb version of FHIR resource from fhir.org.
 
 What I want to do is convert the data type of different health and medical wearable device to FHIR resources in mongoDB.
 
