@@ -64,9 +64,8 @@ var QuestionnaireSchema = new mongoose.Schema({
             fhirType: String,
             required: Boolean,
             repeats: Boolean,
-            options: {
-                
-            },
+            // options: {}, //in mongodb, options is a reserved schema names that can't be used
+            anOptions: {},
             option: [{
                 system: String,
                 code: String,
