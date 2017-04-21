@@ -18,15 +18,21 @@ git clone https://github.com/zelda/mongodb-for-fhir-resource.git
 
 npm install
 
-node app.js
+node app.js (install and start mongo service)
+
 ```
 
+## MongoDB on mac
+
+- [https://segmentfault.com/a/1190000002547229]https://segmentfault.com/a/1190000002547229
+- [http://www.jianshu.com/p/dd0c39bf7be4](http://www.jianshu.com/p/dd0c39bf7be4)
+- 
 ## Issues
 
-1. `node app.js` ---> `Error: 'options' may not be used as a schema pathname` at `app/models/questionnaire.js` line 71 
+- `node app.js` ---> `Error: 'options' may not be used as a schema pathname` at `app/models/questionnaire.js` line 71 
 
 `options` is a reserved schema names that can't be used.
 
 So I change one name for `options`
 
-2. 
+- 
