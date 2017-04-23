@@ -29,7 +29,7 @@ var _ = require('underscore');
 var fs = require('fs');
 var eco = require('eco');
 var async = require('async');
-var Account = mongoose.model('Account');
+var Account = mongoose.model('Account');  //定义模型http://www.jianshu.com/p/880a650251d9
 var ResourceHistory = mongoose.model('ResourceHistory');
 var ResponseFormatHelper = require(__dirname + '/../../lib/response_format_helper');
 

@@ -27,7 +27,7 @@
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/fhir');
 
-var fs = require('fs');
+var fs = require('fs'); //fs文件系统
 var models_path = __dirname + '/../app/models';
 var models = fs.readdirSync(models_path);
 
@@ -36,7 +36,7 @@ var models = fs.readdirSync(models_path);
 models.forEach(function (file) {
   if (~file.indexOf('.js')) {
     //console.log('Trying to require %s',file);
-    require(models_path + '/' + file);
+    require(models_path + '/' + file);  //引入Model文件，即对./Model/*.js中的Schema编译后的构造函数，可以对模式进行CRUD操作
   }
 });
 
