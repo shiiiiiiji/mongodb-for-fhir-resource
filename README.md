@@ -1,6 +1,6 @@
 # mongodb-for-fhir-resource
 
-Ok, this is an experiment project for my master thesis.
+Ok, this is an experiment project for my master thesis——《生态系统视角下健康医疗可穿戴设备数据标准框架研究》。.
 
 At the basic of the origin code for mongodb version of FHIR resource from fhir.org.
 
