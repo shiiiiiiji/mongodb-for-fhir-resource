@@ -14,7 +14,7 @@ What I want to do is convert the data type of different health and medical weara
 ## Useage
 
 ```
-git clone https://github.com/zelda/mongodb-for-fhir-resource.git
+git clone https://github.com/if2er/mongodb-for-fhir-resource.git
 
 npm install
 
